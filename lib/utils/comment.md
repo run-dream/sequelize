@@ -4,8 +4,8 @@
 ``` js
 /**
  * @description 是否是正则表达式
- * @param {String} str
- * @param {String | RegExp} pattern
+ * @param {*} str
+ * @param {*} pattern
  * @param {*} modifiers
  * @return
  */
