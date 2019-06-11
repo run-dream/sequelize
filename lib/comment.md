@@ -13,6 +13,13 @@ b. [bluebird](https://www.zhihu.com/question/25413141)：性能好的Promise库
   instance.getDataValue('field')
 ```
 
+sequelize会尝试定义默认的属性
+- id 自增主键
+- createdAt,updateAt,deletedAt timestamp 可以通过options。createdAt 来修改名字
+
+
+
+
 - Tips
 js 也有static method，标明应该用ClassName.staticMethod来调用
 
