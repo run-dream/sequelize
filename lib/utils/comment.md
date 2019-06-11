@@ -24,3 +24,14 @@ _.forEach(obj, (value, key)=>{
     //...
 })
 ```
+
+2. classToInvokable.js
+用来处理DataTypes，支持不用new符号来创建对象
+
+3. deprecations.js
+用来声明depressed的特性以及将要废弃的特性
+
+4. logger.js
+记录日志
+
+
